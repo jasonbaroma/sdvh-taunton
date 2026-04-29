@@ -5,7 +5,7 @@ import { HomePage } from "@/components/home-page";
 export default function LocationPage() {
   const locationHeroImage = {
     slot: "location3-hero",
-    src: "/images/callington-hero-country-road.jpg",
+    src: "/images/callington-hero-country-road.jpeg",
     alt: "White van on a coastal road near Burnham-on-Sea with the sea in the background",
   };
 
