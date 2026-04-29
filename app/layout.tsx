@@ -3,8 +3,8 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "{{META_TITLE}}",
-  description: "{{META_DESCRIPTION}}",
+  title: "Vehicle Hire Taunton | Cars, Vans, Minibuses & Trucks",
+  description: "Vehicle Hire Taunton for cars, vans, minibuses and trucks. Flexible self-drive rentals with practical coverage across Taunton and surrounding Somerset.",
   icons: {
     icon: "https://sdvh.co.uk/wp-content/uploads/2023/02/cropped-FavIcon-32x32.png",
     apple: "https://sdvh.co.uk/wp-content/uploads/2023/02/cropped-FavIcon-180x180.png",
