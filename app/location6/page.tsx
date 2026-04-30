@@ -6,37 +6,37 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location6-hero",
     src: "/images/callington-country-road.jpeg",
-    alt: "Silver rental car on a hedge-lined country road near Ilminster",
+    alt: "Rental estate car on a quiet rural road near Chard in early morning light",
   };
 
   return (
     <HomePage
-      currentLocationLabel="Ilminster"
+      currentLocationLabel="Chard"
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
-      heroTitle="Vehicle Hire Ilminster"
-      heroDescription="Need a car, van, minibus or truck in Ilminster? We provide flexible self-drive hire for local jobs, business use, family travel and longer distance journeys."
-      serviceAreasTitle="Serving Ilminster and nearby areas"
-      serviceAreasDescription="We serve Ilminster and surrounding parts of Somerset with self-drive vehicle hire that fits local travel, business needs and longer regional journeys."
-      infoContentSectionKicker="Local hire guidance"
-      infoContentSectionTitle="Choosing the right vehicle for Ilminster journeys"
-      infoContentSectionIntro="Vehicle hire in Ilminster often comes down to practicality. Some customers need a dependable car for onward travel, while others want a van for work, a minibus for group transport or a truck for heavier jobs. With good road links nearby, Ilminster is a sensible place to start many kinds of journey."
-      infoContentBlock1Title="Useful for A303 access"
-      infoContentBlock1Body="Ilminster works well for drivers needing quick access to the A303, whether the trip is local within South Somerset or further afield. Hiring the right vehicle can save time when you are moving goods, collecting stock or setting off early for a longer route."
-      infoContentBlock2Title="A practical option for carrying loads"
-      infoContentBlock2Body="For home projects, furniture collection or small business jobs, a van or truck can be a more practical choice than making repeated runs in a car. We can help match the vehicle to the job so the day runs more smoothly."
-      infoContentBlock3Title="Flexible choices for people and plans"
-      infoContentBlock3Body="If you are travelling as a group, a minibus can make local events, family outings and airport runs much easier to organise. For simpler day-to-day use, standard cars and larger family models are also available."
-      bottomCtaTitle="Book vehicle hire in Ilminster"
-      bottomCtaDescription="From short local use to longer runs across Somerset and beyond, we can help arrange practical vehicle hire in Ilminster."
-      secondaryCtaTitle="Need help before you book?"
-      secondaryCtaDescription="If you are comparing vehicle sizes or planning a longer route from Ilminster, we can help you narrow it down."
+      heroTitle="Vehicle Hire in Chard"
+      heroDescription="We offer dependable vehicle hire in Chard for personal trips, business transport, van jobs, group travel and heavier-duty work across Somerset, Devon and Dorset routes."
+      serviceAreasTitle="Serving Chard and the surrounding area"
+      serviceAreasDescription="We cover Chard and surrounding parts of south Somerset, with hire support for nearby villages, business premises and residential addresses as well as onward routes into Devon and Dorset."
+      infoContentSectionKicker="Planning your hire"
+      infoContentSectionTitle="Practical vehicle hire advice for Chard journeys"
+      infoContentSectionIntro="Chard sits close to county borders and key west-country routes, so vehicle hire here often supports practical journeys rather than short local hops. Whether you need a car for flexible travel, a van for moving goods, a minibus for group trips or a truck for heavier work, the town is well placed for onward travel in several directions."
+      infoContentBlock1Title="Getting in and out of Chard"
+      infoContentBlock1Body="Chard works well for hires that need quick access to the A30 and the A358, whether you are heading towards Taunton, Ilminster or the Dorset border. That makes it a practical base for vans, minibuses and larger vehicles that need straightforward road links without starting in a bigger town centre."
+      infoContentBlock2Title="Fuel and stop planning"
+      infoContentBlock2Body="For longer runs, most drivers top up around the main approach roads and retail areas before joining the wider route network. If you are collecting goods or travelling with a full load, it helps to plan fuel and comfort stops before heading deeper into rural Somerset, East Devon or West Dorset."
+      infoContentBlock3Title="Useful hire patterns locally"
+      infoContentBlock3Body="Many hires in Chard are for house moves, trade work, event transport or family journeys where extra space matters more than city-centre driving. A delivered vehicle can save a separate trip, and one-way hire can be useful if your route finishes away from town."
+      bottomCtaTitle="Reserve vehicle hire in Chard"
+      bottomCtaDescription="Tell us what you need in Chard and we will help arrange a suitable hire vehicle for local driving, long-distance travel, moving work or commercial use."
+      secondaryCtaTitle="Need help choosing the right vehicle in Chard?"
+      secondaryCtaDescription="Speak to our team about the kind of journey you are making and we will help arrange a suitable car, van, minibus or truck for Chard."
       faqs={[
-        { question: "Can you deliver a hire vehicle to Ilminster?", answer: "Yes, we can often arrange delivery and collection in and around Ilminster, subject to the vehicle and booking details." },
-        { question: "Is one-way vehicle hire available from Ilminster?", answer: "Yes, one-way hire is available on many bookings. Let us know your route and drop-off location when you enquire." },
-        { question: "Is insurance included with Ilminster vehicle hire?", answer: "Many hires include insurance as part of the booking. The exact cover depends on the vehicle type and who will be driving." },
-        { question: "Can I hire a vehicle in Ilminster for European travel?", answer: "Yes, selected vehicles can be taken into Europe by arrangement. It is best to mention this early so the right paperwork can be prepared." },
-        { question: "What type of vehicle can I hire in Ilminster?", answer: "We offer a wide range including cars, vans, minibuses and trucks, so the best choice depends on passenger numbers, load size and journey type." },
+        { question: "What vehicles do you offer in Bridgwater?", answer: "Bridgwater customers can book from a wide fleet that includes cars, vans, minibuses and trucks for both domestic and commercial use." },
+        { question: "Can you deliver a hire vehicle in Bridgwater?", answer: "Yes, delivery and collection can often be arranged in Bridgwater, which is especially useful for business premises, home moves and scheduled site work." },
+        { question: "Which hire type suits commercial use in Bridgwater?", answer: "A van or truck is often the best fit for deliveries, equipment or site-related work, while cars and minibuses are available for travel-focused bookings." },
+        { question: "Can I start in Bridgwater and return elsewhere?", answer: "One-way hire may be available on selected vehicles and routes. If you need to finish outside Bridgwater, mention that at the booking stage." },
+        { question: "Is insurance included with Bridgwater vehicle hire?", answer: "Many hires include insurance, with details depending on the vehicle and booking. We will confirm the cover that applies before you travel." },
       ]}
     />
   );

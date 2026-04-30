@@ -5,8 +5,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Vehicle Hire Taunton | Cars, Vans, Minibuses & Trucks",
-  description: "Vehicle Hire Taunton for cars, vans, minibuses and trucks. Flexible self-drive rentals with practical coverage across Taunton and surrounding Somerset.",
+  title: "Vehicle Hire Barnstaple | Cars, Vans, Minibuses & Trucks",
+  description: "Vehicle hire in Barnstaple for cars, vans, minibuses and trucks. Practical self-drive options with flexible booking, local support and wide area coverage.",
   alternates: {
     canonical: "/",
   },

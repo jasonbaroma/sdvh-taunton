@@ -1,4 +1,4 @@
 export const companyName = "sdvh-taunton";
-export const companyTagline = "Self-drive hire across Taunton";
+export const companyTagline = "Flexible hire for every journey";
 export const mainLocationName = "Taunton";
-export const siteUrl = "https://www.sdvh-taunton.co.uk";
+export const siteUrl = "https://sdvh-taunton.co.uk";

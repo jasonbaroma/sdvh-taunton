@@ -6,7 +6,7 @@ export default function LocationPage() {
   const locationHeroImage = {
     slot: "location1-hero",
     src: "/images/torpoint-hero-country-road.jpeg",
-    alt: "Modern rental car on a quiet country lane near Wellington in Somerset",
+    alt: "Compact rental vehicle driving along a country lane near Wellington in soft morning light",
   };
 
   return (
@@ -15,28 +15,28 @@ export default function LocationPage() {
       heroImage={locationHeroImage.src}
       heroImageAlt={locationHeroImage.alt}
       heroTitle="Vehicle Hire Wellington"
-      heroDescription="Vehicle Hire in Wellington for everyday driving, home moves, trade work and group travel. Flexible self-drive options backed by a wider Taunton fleet."
-      serviceAreasTitle="Serving Wellington and nearby areas"
-      serviceAreasDescription="We support Wellington and nearby parts of Somerset, with access to a wider vehicle hire service covering local towns, villages and key routes around the M5 corridor."
-      infoContentSectionKicker="Planning your hire"
-      infoContentSectionTitle="Choosing the right vehicle for Wellington journeys"
-      infoContentSectionIntro="Wellington sits in a practical spot for commuting, business travel and access to surrounding Somerset and Devon routes. Vehicle hire here is often about matching the job properly, whether that means a car for flexibility, a van for lifting capacity or a minibus for group plans."
-      infoContentBlock1Title="Well connected for work and regional travel"
-      infoContentBlock1Body="Wellington is well placed for trips into Taunton, journeys along the M5 and travel out towards the Blackdown Hills. That makes hired cars and vans especially useful when your normal vehicle is not suitable for the route or the load."
-      infoContentBlock2Title="A sensible choice for moving and trade jobs"
-      infoContentBlock2Body="For local moves, furniture collection or property clear-outs, hiring a van for the day can be simpler than trying to manage everything with a smaller vehicle. It also helps local trades handle short-term demand without adding permanent fleet costs."
-      infoContentBlock3Title="Useful for shared trips and event travel"
-      infoContentBlock3Body="If you are organising transport for a family occasion, club outing or airport run, a minibus can keep the group together and reduce the need for multiple cars. It is a practical option for shared journeys starting from Wellington."
-      bottomCtaTitle="Arrange vehicle hire in Wellington"
-      bottomCtaDescription="If you need a car, van, minibus or truck in Wellington, we can help arrange a practical hire that fits the journey."
-      secondaryCtaTitle="Need help deciding?"
-      secondaryCtaDescription="Speak to our team if you want help comparing vehicle sizes, delivery options or longer-distance hire from Wellington."
+      heroDescription="Vehicle Hire Wellington with flexible options for local errands, home moves, business transport and longer trips via the A38 and nearby M5 links."
+      serviceAreasTitle="Serving Wellington and nearby routes"
+      serviceAreasDescription="Serving Wellington and nearby parts of West Somerset and the Blackdown Hills, with practical vehicle hire for local moves, work travel, family trips and longer journeys across the South West."
+      infoContentSectionKicker="Useful hire guidance"
+      infoContentSectionTitle="Planning vehicle hire around Wellington and the M5"
+      infoContentSectionIntro="Wellington is a practical place to arrange vehicle hire if you need fast access to Somerset and Devon routes without the pressure of starting in a larger urban area. Customers here often hire for moving day, business appointments, family visits and jobs that need more carrying space than an everyday car can offer."
+      infoContentBlock1Title="Road links that make collection practical"
+      infoContentBlock1Body="Wellington is well placed for road access, sitting close to junction 26 of the M5 and directly on the A38. That makes it useful for drivers heading toward Taunton, Tiverton or Exeter, and ideal for hires that need quick motorway connections without starting in a larger town centre."
+      infoContentBlock2Title="Fuel stops and town-centre access"
+      infoContentBlock2Body="For fuel and quick stop-offs, the Chelston area by the motorway is a familiar point for drivers, with services and easy rejoining of the route. Around the town itself, Fore Street and surrounding streets can be tighter, so larger vans are easier to manage if loading is planned outside busier periods."
+      infoContentBlock3Title="Useful for moves, work and rural trips"
+      infoContentBlock3Body="Wellington hires often suit home moves, trade work and countryside travel toward the Blackdown Hills. If you are carrying equipment or heading to villages beyond the main road network, having the right-sized van or sturdy car can make the day far more straightforward."
+      bottomCtaTitle="Need vehicle hire in Wellington?"
+      bottomCtaDescription="Whether you need extra space for a house move, a reliable van for deliveries or a car for flexible travel from Wellington, we can help you arrange it."
+      secondaryCtaTitle="Ready to arrange your Wellington hire?"
+      secondaryCtaDescription="If you already know your dates and vehicle type, get in touch and we will help you sort out a straightforward Wellington booking."
       faqs={[
-        { question: "Can I book vehicle hire in Wellington?", answer: "Yes, we can help with vehicle hire for Wellington, including cars, vans, minibuses and trucks depending on your needs and dates." },
-        { question: "Do you deliver vehicles to Wellington?", answer: "In many cases, yes. Delivery and collection may be available in and around Wellington, subject to the booking details." },
-        { question: "What van hire is available for moving jobs?", answer: "Vans are commonly hired for house moves, furniture collection, trade work and local delivery runs. We can help match the size to the job." },
-        { question: "Is one-way hire available from Wellington?", answer: "Yes, one-way hire may be possible on selected bookings. Let us know the route and we will confirm availability." },
-        { question: "How do I get started with a booking?", answer: "Just contact us with your dates, licence details and the type of vehicle you need. We will guide you through the options." },
+        { question: "What can I hire in Wellington?", answer: "Yes, Wellington customers can book cars, vans, minibuses and trucks, depending on availability and the type of journey planned." },
+        { question: "Can the vehicle be delivered in Wellington?", answer: "Delivery and collection can often be arranged in Wellington, which is helpful if you are near the town centre, residential areas or business premises close to the A38." },
+        { question: "Which hire vehicle suits a move in Wellington?", answer: "For local moves, a van is usually the most practical choice, while larger removals may need a Luton-style vehicle or another larger option depending on load size." },
+        { question: "Do you offer one-way hire from Wellington?", answer: "One-way hire may be possible if you are starting in Wellington and finishing elsewhere. Availability depends on the vehicle and route." },
+        { question: "What do I need before collecting a hire vehicle?", answer: "Bring your driving licence and any booking details requested at confirmation. For some hires, proof of address or additional checks may also be needed." },
       ]}
     />
   );

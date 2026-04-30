@@ -6,7 +6,7 @@ export default function Home() {
   const homepageHeroImage = {
     slot: "homepage-hero",
     src: "/images/homepage-hero-country-road.jpeg",
-    alt: "Estate car and white van on a tree-lined rural road in the Taunton area",
+    alt: "Unbranded rental van on a tree-lined rural road in the Taunton area",
   };
 
   return (
@@ -14,28 +14,28 @@ export default function Home() {
       heroImage={homepageHeroImage.src}
       heroImageAlt={homepageHeroImage.alt}
       heroTitle="Vehicle Hire Taunton"
-      heroDescription="Vehicle Hire in Taunton for cars, vans, minibuses and trucks. Practical self-drive options for home moves, business use, group travel and everyday journeys."
-      serviceAreasTitle="Areas we cover around Taunton"
-      serviceAreasDescription="We provide vehicle hire across Taunton and nearby Somerset towns, helping customers book the right vehicle for local trips, house moves, business use and longer journeys."
-      infoContentSectionKicker="Local hire guidance"
-      infoContentSectionTitle="What makes vehicle hire useful in Taunton"
-      infoContentSectionIntro="Hiring a vehicle in Taunton can be a practical way to handle everyday travel, larger jobs and longer planned journeys. With a mix of town driving, motorway access and rural routes across Somerset, customers often need a vehicle that fits a specific task rather than a one-size-fits-all option."
-      infoContentBlock1Title="Hiring for local routes and longer runs"
-      infoContentBlock1Body="Taunton works well as a base for both local driving and longer regional trips. With quick access towards the M5, nearby business parks and surrounding villages, hired vehicles are often useful for trade jobs, family travel and time-sensitive deliveries."
-      infoContentBlock2Title="Useful options for moves and workload peaks"
-      infoContentBlock2Body="If you are moving house, clearing storage or picking up stock, the right van or truck can save multiple trips. Delivery and collection can also make the process easier if you want the vehicle brought to your address or workplace."
-      infoContentBlock3Title="Planning group travel from Taunton"
-      infoContentBlock3Body="Taunton also suits group travel, whether you are organising transport for family events, sports trips or shared weekends away. A minibus can simplify travel plans and keep everyone on the same route from the start."
+      heroDescription="Vehicle Hire Taunton for cars, vans, minibuses and trucks, with practical booking options for personal trips, business use, moving day and longer-distance travel."
+      serviceAreasTitle="Vehicle hire across Taunton and nearby towns"
+      serviceAreasDescription="Our vehicle hire service covers Taunton and nearby Somerset towns, making it easy to arrange cars, vans, minibuses and trucks for local journeys, longer trips and one-way bookings."
+      infoContentSectionKicker="Local hire advice"
+      infoContentSectionTitle="Practical vehicle hire guidance for Taunton journeys"
+      infoContentSectionIntro="Hiring a vehicle in Taunton is often the simplest way to handle journeys that do not fit around your usual car, timetable or carrying space. With major road links nearby and a wide mix of residential, business and rural routes, the area suits everything from family trips to trade transport."
+      infoContentBlock1Title="Getting out of Taunton efficiently"
+      infoContentBlock1Body="Taunton works well as a starting point for journeys across Somerset thanks to quick access to the M5 at junction 25 and strong links on the A38 and A358. That makes it a practical place to collect or receive a hire vehicle for local driving or longer runs."
+      infoContentBlock2Title="Useful for moving, work and local logistics"
+      infoContentBlock2Body="If you are hiring for a move, delivery round or business trip, choosing delivery and collection can save time around busy town-centre traffic and parking. It is especially useful for home moves, office jobs and scheduled work across the wider county."
+      infoContentBlock3Title="A strong base for wider Somerset travel"
+      infoContentBlock3Body="Taunton sits within easy reach of the Quantocks, Exmoor routes, Bridgwater, Wellington and the south coast corridors. Whether you need a car for flexible travel, a minibus for group transport or a truck for heavier loads, the town is well placed for straightforward onward travel."
       bottomCtaTitle="Book the right vehicle for Taunton"
-      bottomCtaDescription="Tell us what you need to move, carry or reach, and we will help match you with the right vehicle for the job."
-      secondaryCtaTitle="Need a hand choosing?"
-      secondaryCtaDescription="Tell us what you need to carry, how many people are travelling and where you are heading, and we will help point you to a suitable vehicle."
+      bottomCtaDescription="Tell us what you need to move, carry or drive, and we will help you arrange the right vehicle in Taunton and the surrounding area."
+      secondaryCtaTitle="Talk through your Taunton hire"
+      secondaryCtaDescription="If you are comparing options for a journey, move or work booking, we can help you line up a suitable vehicle and practical hire terms from Taunton."
       faqs={[
-        { question: "What types of vehicles can I hire?", answer: "We hire out cars, vans, minibuses and trucks, so whether you need a runabout, a moving van or a larger commercial vehicle, we can help." },
-        { question: "Do you offer delivery and collection?", answer: "In many cases, yes. Delivery and collection can often be arranged to make the hire more convenient, depending on location and vehicle type." },
-        { question: "Can I book a one-way rental?", answer: "One-way hire is available on selected bookings. Let us know your start point and destination and we will confirm what is possible." },
-        { question: "Can I take the vehicle to Europe?", answer: "Some hires can be arranged for European travel, but this needs to be agreed in advance so the correct vehicle and documents can be prepared." },
-        { question: "How do I arrange a booking?", answer: "You can contact the team with your dates, licence details, route and vehicle preference. We will talk you through the suitable options and next steps." },
+        { question: "What types of vehicles can I hire in Taunton?", answer: "We offer a broad self-drive range including cars, vans, minibuses and trucks, so you can choose a vehicle that suits anything from a short local trip to a larger move or business job." },
+        { question: "Can you deliver the hire vehicle to me?", answer: "Yes, delivery and collection can often be arranged, which is useful if you are at home, at work or planning a move and want to save time on pickup logistics." },
+        { question: "Is one-way vehicle hire available?", answer: "One-way hire is available on selected bookings, subject to route and vehicle type. It is a practical option if you are relocating or finishing your journey in another part of the UK." },
+        { question: "Is insurance included with the hire?", answer: "Many hires include insurance as part of the booking. The exact cover depends on the vehicle and journey, so it is best to confirm the details when arranging your hire." },
+        { question: "Can I take a hire vehicle from Taunton into Europe?", answer: "European travel can be arranged on certain vehicles with advance notice. Let us know your route before booking so the correct paperwork and vehicle can be prepared." },
       ]}
     />
   );

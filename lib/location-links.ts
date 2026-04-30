@@ -18,7 +18,7 @@ const mainLocationMetadata: LocationMetadata = {
   href: "/",
   county: "Somerset",
   region: "South West England",
-  population: "69157",
+  population: "69412",
 };
 
 const LOCATION_METADATA: LocationMetadata[] = [
@@ -27,35 +27,28 @@ const LOCATION_METADATA: LocationMetadata[] = [
     href: `/${slugifyLocation("Wellington")}`,
     county: "Somerset",
     region: "South West England",
-    population: "9439",
-  },
-  {
-    label: "Bridgwater",
-    href: `/${slugifyLocation("Bridgwater")}`,
-    county: "Somerset",
-    region: "South West England",
-    population: "41500",
+    population: "7693",
   },
   {
     label: "Burnham-on-Sea",
     href: `/${slugifyLocation("Burnham-on-Sea")}`,
     county: "Somerset",
     region: "South West England",
-    population: "9637",
+    population: "7863",
   },
   {
-    label: "Frome",
-    href: `/${slugifyLocation("Frome")}`,
+    label: "Cheddar",
+    href: `/${slugifyLocation("Cheddar")}`,
     county: "Somerset",
     region: "South West England",
-    population: "27915",
+    population: "5755",
   },
   {
     label: "Street",
     href: `/${slugifyLocation("Street")}`,
     county: "Somerset",
     region: "South West England",
-    population: "11985",
+    population: "11705",
   },
   {
     label: "Ilminster",
@@ -63,6 +56,13 @@ const LOCATION_METADATA: LocationMetadata[] = [
     county: "Somerset",
     region: "South West England",
     population: "5808",
+  },
+  {
+    label: "Chard",
+    href: `/${slugifyLocation("Chard")}`,
+    county: "Somerset",
+    region: "South West England",
+    population: "13147",
   },
 ];
 
@@ -83,3 +83,10 @@ export const locationSlugEntries = LOCATION_METADATA.map(({ label }, index) => (
   label,
   slug: slugifyLocation(label),
 }));
+
+export const mainLocationMetadata = {
+  name: mainLocationName,
+  county: 'Somerset',
+  region: 'South West England',
+  population: '69412',
+}
